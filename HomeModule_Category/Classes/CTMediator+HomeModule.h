@@ -5,14 +5,15 @@
 //  Created by WTW on 2019/10/28.
 //
 
-#import <AppKit/AppKit.h>
-
+#import <UIKit/UIKit.h>
 
 #import <CTMediator/CTMediator.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CTMediator (HomeModule)
+
+- (UIViewController *)HomeModule_ViewController;
 
 @end
 
